@@ -1,0 +1,500 @@
+{"id": "titan_0005", "split": "train", "source": "Have you tried turning it off and on again?", "domain": "tech/devices/software", "intent": "question"}
+{"id": "titan_0019", "split": "train", "source": "Would you like to grab dinner sometime this week?", "domain": "social/dating", "intent": "question"}
+{"id": "titan_0020", "split": "train", "source": "Reminder: unused vacation days expire at the end of December.", "domain": "workplace", "intent": "announce"}
+{"id": "titan_0027", "split": "train", "source": "What time does the hotel checkout?", "domain": "travel", "intent": "question"}
+{"id": "titan_0028", "split": "train", "source": "Can I leave an hour early today? I have a dentist appointment.", "domain": "workplace", "intent": "request"}
+{"id": "titan_0041", "split": "train", "source": "It's going to be below freezing tonight, bring the plants in.", "domain": "weather/nature/outdoors", "intent": "warning"}
+{"id": "titan_0042", "split": "train", "source": "I can't believe it's already November.", "domain": "social/dating", "intent": "small talk"}
+{"id": "titan_0044", "split": "train", "source": "Please stop replying-all to the whole company.", "domain": "workplace", "intent": "request"}
+{"id": "titan_0056", "split": "train", "source": "Please have your account number ready when you call.", "domain": "customer service", "intent": "instruction"}
+{"id": "titan_0060", "split": "train", "source": "Can you feed the cat while I'm away next week?", "domain": "pets", "intent": "request"}
+{"id": "titan_0063", "split": "train", "source": "Drink more water, you're probably dehydrated.", "domain": "health/fitness", "intent": "instruction"}
+{"id": "titan_0068", "split": "train", "source": "Your teacher emailed; you've missed three assignments this month.", "domain": "school/education", "intent": "bad news"}
+{"id": "titan_0071", "split": "train", "source": "I'm doing laundry; put anything dirty in the basket now.", "domain": "home/chores", "intent": "announce"}
+{"id": "titan_0072", "split": "train", "source": "Your account is overdrawn by $42.", "domain": "finance/money", "intent": "warning"}
+{"id": "titan_0074", "split": "train", "source": "At least the snow is pretty, even if the roads are bad.", "domain": "weather/nature/outdoors", "intent": "small talk"}
+{"id": "titan_0077", "split": "train", "source": "Use the left lane; the right one is closed for construction.", "domain": "transport/commute", "intent": "instruction"}
+{"id": "titan_0078", "split": "train", "source": "You still owe me twenty bucks from last weekend.", "domain": "social/dating", "intent": "request"}
+{"id": "titan_0079", "split": "train", "source": "Make sure the slides are in the shared folder by 5.", "domain": "workplace", "intent": "instruction"}
+{"id": "titan_0086", "split": "train", "source": "Can you sign my permission slip for the field trip?", "domain": "school/education", "intent": "request"}
+{"id": "titan_0092", "split": "train", "source": "My car failed inspection; it needs new brakes.", "domain": "transport/commute", "intent": "bad news"}
+{"id": "titan_0095", "split": "train", "source": "Let's push the decision to next week so we can get more data.", "domain": "workplace", "intent": "request"}
+{"id": "titan_0096", "split": "train", "source": "I can't make it to the party Saturday, sorry.", "domain": "social/dating", "intent": "refusal"}
+{"id": "titan_0101", "split": "train", "source": "Is the fish fresh today?", "domain": "food/cooking", "intent": "question"}
+{"id": "titan_0103", "split": "train", "source": "The client signed the contract this morning.", "domain": "workplace", "intent": "good news"}
+{"id": "titan_0107", "split": "train", "source": "Taxes are due April 15th.", "domain": "finance/money", "intent": "announce"}
+{"id": "titan_0108", "split": "train", "source": "The technician never showed up for the appointment.", "domain": "customer service", "intent": "complaint"}
+{"id": "titan_0111", "split": "train", "source": "Did you remember to pack the phone chargers?", "domain": "travel", "intent": "question"}
+{"id": "titan_0114", "split": "train", "source": "I got the promotion!", "domain": "social/dating", "intent": "good news"}
+{"id": "titan_0119", "split": "train", "source": "Why is your sister crying?", "domain": "home/kids", "intent": "question"}
+{"id": "titan_0121", "split": "train", "source": "Dear residents, the building's holiday decorations will go up on December 1st, and we ask that all balcony lights be switched off by 11 pm nightly.", "domain": "holidays/celebrations", "intent": "announce"}
+{"id": "titan_0123", "split": "train", "source": "ugh sorry, totally forgot to send you the file, sending now", "domain": "workplace", "intent": "apology"}
+{"id": "titan_0124", "split": "train", "source": "The bridge is icy this morning, slow down on the ramp.", "domain": "transport/commute", "intent": "warning"}
+{"id": "titan_0125", "split": "train", "source": "Hi, I was wondering if you'll be getting the blue version of this jacket back in stock before Christmas?", "domain": "retail/shopping", "intent": "question"}
+{"id": "titan_0128", "split": "train", "source": "Please be advised that interest rates on variable mortgages will increase by 0.25% effective the first of next month.", "domain": "finance/money", "intent": "announce"}
+{"id": "titan_0129", "split": "train", "source": "Can you help me with my science project? It's due Monday and I haven't started.", "domain": "home/kids", "intent": "request"}
+{"id": "titan_0135", "split": "train", "source": "Thank you for contacting support. Your ticket has been received and a representative will respond within two business days.", "domain": "customer service", "intent": "announce"}
+{"id": "titan_0137", "split": "train", "source": "I'm afraid the new hire start date has to move to January because the background check is taking longer than expected.", "domain": "workplace", "intent": "bad news"}
+{"id": "titan_0140", "split": "train", "source": "bus is packed, next one's in 10, just gonna wait", "domain": "transport/commute", "intent": "announce"}
+{"id": "titan_0142", "split": "train", "source": "I was charged twice for the same order on my card.", "domain": "retail/shopping", "intent": "complaint"}
+{"id": "titan_0154", "split": "train", "source": "Did anyone give the dog his medicine this morning?", "domain": "pets", "intent": "question"}
+{"id": "titan_0162", "split": "train", "source": "The parking meter ate my coins and didn't give me a ticket.", "domain": "transport/commute", "intent": "complaint"}
+{"id": "titan_0164", "split": "train", "source": "We're moving to Denver in March; the job offer was too good to pass up and we've already found a place.", "domain": "social/dating", "intent": "announce"}
+{"id": "titan_0167", "split": "train", "source": "Mondays are brutal, I need about three coffees to function.", "domain": "workplace", "intent": "small talk"}
+{"id": "titan_0171", "split": "train", "source": "Could you extend my trial by another week? I haven't had a chance to really test it.", "domain": "customer service", "intent": "request"}
+{"id": "titan_0182", "split": "train", "source": "Stop fighting over the remote, you can each pick one show.", "domain": "home/kids", "intent": "request"}
+{"id": "titan_0183", "split": "train", "source": "made too much curry, come grab some if you want", "domain": "food/cooking", "intent": "announce"}
+{"id": "titan_0186", "split": "train", "source": "Our team hasn't won a championship in thirty years.", "domain": "sports/games", "intent": "small talk"}
+{"id": "titan_0188", "split": "train", "source": "I submitted a refund request on October 2nd and have not received any update. Could you advise on the status?", "domain": "customer service", "intent": "question"}
+{"id": "titan_0191", "split": "train", "source": "After two years of trying, we finally got the apartment we wanted; we sign the lease on Friday.", "domain": "social/dating", "intent": "good news"}
+{"id": "titan_0209", "split": "train", "source": "Your staff were incredibly helpful today, please pass that on.", "domain": "retail/shopping", "intent": "compliment"}
+{"id": "titan_0215", "split": "train", "source": "demo went great, they want to move to a paid pilot", "domain": "workplace", "intent": "good news"}
+{"id": "titan_0217", "split": "train", "source": "I'd rather not talk about it right now, if that's okay.", "domain": "social/dating", "intent": "refusal"}
+{"id": "titan_0219", "split": "train", "source": "The last ferry leaves at 10:40; if we miss it, we're stuck on the island overnight.", "domain": "transport/commute", "intent": "warning"}
+{"id": "titan_0231", "split": "train", "source": "I miss real winters; it barely snows here anymore.", "domain": "weather/nature/outdoors", "intent": "small talk"}
+{"id": "titan_0233", "split": "train", "source": "Give the fish a pinch of food once a day, no more.", "domain": "pets", "intent": "instruction"}
+{"id": "titan_0235", "split": "train", "source": "As of January 1st, the company will transition to a four-day work week; hours will be 8 am to 6 pm Monday through Thursday.", "domain": "workplace", "intent": "announce"}
+{"id": "titan_0236", "split": "train", "source": "The gift you picked for Mom was perfect, she cried.", "domain": "holidays/celebrations", "intent": "compliment"}
+{"id": "titan_0410", "split": "train", "source": "so the hotfix we shipped friday night introduced a memory leak and we only noticed it this morning", "domain": "workplace", "intent": "bad news"}
+{"id": "titan_0412", "split": "train", "source": "I'm not going to approve this pull request until the failing integration test is fixed, not skipped.", "domain": "workplace", "intent": "refusal"}
+{"id": "titan_0425", "split": "train", "source": "The washing machine is leaking again.", "domain": "home/chores", "intent": "bad news"}
+{"id": "titan_0431", "split": "train", "source": "Excellent work on the history essay.", "domain": "home/kids", "intent": "compliment"}
+{"id": "titan_0433", "split": "train", "source": "Dear parents, please remember that homework is intended to take no more than thirty minutes per evening for this year group.", "domain": "home/kids", "intent": "small talk"}
+{"id": "titan_0434", "split": "train", "source": "no I'm not writing your book report for you, nice try", "domain": "home/kids", "intent": "refusal"}
+{"id": "titan_0443", "split": "train", "source": "why'd u leave me on read", "domain": "social/dating", "intent": "question"}
+{"id": "titan_0444", "split": "train", "source": "Sorry for the late reply, I've been buried all week.", "domain": "social/dating", "intent": "apology"}
+{"id": "titan_0445", "split": "train", "source": "I have noticed that our group conversation now contains more forwarded videos than actual messages from any of us.", "domain": "social/dating", "intent": "small talk"}
+{"id": "titan_0449", "split": "train", "source": "It is frustrating to send a detailed message and receive a single thumbs-up emoji in return, as though nothing in it warranted a word.", "domain": "social/dating", "intent": "complaint"}
+{"id": "titan_0451", "split": "train", "source": "where is my parcel 8827", "domain": "customer service", "intent": "question"}
+{"id": "titan_0452", "split": "train", "source": "The tracking page has shown 'out for delivery' for four consecutive days.", "domain": "customer service", "intent": "complaint"}
+{"id": "titan_0462", "split": "train", "source": "We can't honor last week's price; the promotion ended on Monday.", "domain": "retail/shopping", "intent": "refusal"}
+{"id": "titan_0463", "split": "train", "source": "I always end up buying things I don't need just because they're marked down, and then I feel silly about it.", "domain": "retail/shopping", "intent": "small talk"}
+{"id": "titan_0465", "split": "train", "source": "Good news, the manager approved a price match plus an extra ten percent off for the trouble with the first order.", "domain": "retail/shopping", "intent": "good news"}
+{"id": "titan_0467", "split": "train", "source": "any chance of an early check-in?", "domain": "travel", "intent": "request"}
+{"id": "titan_0470", "split": "train", "source": "the room next door has been blasting music since midnight", "domain": "travel", "intent": "complaint"}
+{"id": "titan_0474", "split": "train", "source": "they gave our room away, we're on a sofa bed in the lobby wing", "domain": "travel", "intent": "bad news"}
+{"id": "titan_0478", "split": "train", "source": "Could you move your car up so I can get out?", "domain": "transport/commute", "intent": "request"}
+{"id": "titan_0484", "split": "train", "source": "do i take this with food or on an empty stomach?", "domain": "health/fitness", "intent": "question"}
+{"id": "titan_0494", "split": "train", "source": "that was hands down the best biryani in the city, tell the chef", "domain": "food/cooking", "intent": "compliment"}
+{"id": "titan_0499", "split": "train", "source": "Extreme heat warning: 44 degrees tomorrow.", "domain": "weather/nature/outdoors", "intent": "warning"}
+{"id": "titan_0515", "split": "train", "source": "Mock exams begin Monday, 9 am.", "domain": "school/education", "intent": "announce"}
+{"id": "titan_0517", "split": "train", "source": "I got an A on the chemistry exam, which I honestly did not see coming after how badly the midterm went.", "domain": "school/education", "intent": "good news"}
+{"id": "titan_0518", "split": "train", "source": "so I failed the stats midterm, got a 42 percent", "domain": "school/education", "intent": "bad news"}
+{"id": "titan_0519", "split": "train", "source": "Top of the class in physics.", "domain": "school/education", "intent": "compliment"}
+{"id": "titan_0524", "split": "train", "source": "Version 11.3 is rolling out this week with the fix for the login crash and a few performance improvements.", "domain": "tech/devices/software", "intent": "announce"}
+{"id": "titan_0532", "split": "train", "source": "We lost the semifinal on penalties after a goalless draw.", "domain": "sports/games", "intent": "bad news"}
+{"id": "titan_0539", "split": "train", "source": "The vet found a lump on Milo's side and wants to do a biopsy next week before saying anything more.", "domain": "pets", "intent": "bad news"}
+{"id": "titan_0542", "split": "train", "source": "The veterinary nurse handled our very nervous cat with such calm that the entire examination was over before he realized it had begun.", "domain": "pets", "intent": "compliment"}
+{"id": "titan_0544", "split": "train", "source": "can you bring the sheer khurma for eid, yours is better than mine", "domain": "holidays/celebrations", "intent": "request"}
+{"id": "titan_0547", "split": "train", "source": "no crackers this diwali, too loud", "domain": "holidays/celebrations", "intent": "refusal"}
+{"id": "titan_0556", "split": "train", "source": "Could you keep the music down after 11 on weeknights?", "domain": "civic/admin/housing", "intent": "request"}
+{"id": "titan_0557", "split": "train", "source": "Just so you know, the upstairs neighbours have complained twice about the dog barking while you're at work, and a third time goes to the landlord.", "domain": "civic/admin/housing", "intent": "warning"}
+{"id": "titan_0565", "split": "train", "source": "HR still hasn't approved my leave.", "domain": "workplace", "intent": "complaint"}
+{"id": "titan_0569", "split": "train", "source": "My sabbatical got approved!", "domain": "workplace", "intent": "good news"}
+{"id": "titan_0575", "split": "train", "source": "I apologize for approving the overtime without checking the policy first.", "domain": "workplace", "intent": "apology"}
+{"id": "titan_0578", "split": "train", "source": "I am only cleaning the kitchen and the bathroom this weekend; the bedrooms are on each of you.", "domain": "home/chores", "intent": "announce"}
+{"id": "titan_0583", "split": "train", "source": "The closet looks incredible now that you organized it by season.", "domain": "home/chores", "intent": "compliment"}
+{"id": "titan_0590", "split": "train", "source": "ugh the kids' tablet screen cracked AGAIN and the repair place said two weeks minimum, so that's going to be a fun fortnight", "domain": "home/kids", "intent": "bad news"}
+{"id": "titan_0592", "split": "train", "source": "Screens are to be switched off thirty minutes before bedtime on school nights.", "domain": "home/kids", "intent": "instruction"}
+{"id": "titan_0599", "split": "train", "source": "You were right about moving closer to your parents; it has made everything easier.", "domain": "family/relationships", "intent": "compliment"}
+{"id": "titan_0600", "split": "train", "source": "I am not prepared to sign the lease on the larger apartment until we have reviewed the full year of expenses together.", "domain": "family/relationships", "intent": "refusal"}
+{"id": "titan_0614", "split": "train", "source": "Could you switch me to annual billing and apply the discount you mentioned in the email from last Tuesday?", "domain": "customer service", "intent": "request"}
+{"id": "titan_0621", "split": "train", "source": "nah not paying for return shipping", "domain": "retail/shopping", "intent": "refusal"}
+{"id": "titan_0625", "split": "train", "source": "Package marked delivered, never arrived.", "domain": "retail/shopping", "intent": "bad news"}
+{"id": "titan_0626", "split": "train", "source": "I have to say, the replacement arrived in two days with a handwritten note, which is the best service I have had from an online store.", "domain": "retail/shopping", "intent": "compliment"}
+{"id": "titan_0630", "split": "train", "source": "heads up, if you put the big shampoo bottle in your hand luggage security is 100% going to take it off you", "domain": "travel", "intent": "warning"}
+{"id": "titan_0633", "split": "train", "source": "no second suitcase, forget it", "domain": "travel", "intent": "refusal"}
+{"id": "titan_0644", "split": "train", "source": "can you spot me on bench today, going for a new max", "domain": "health/fitness", "intent": "request"}
+{"id": "titan_0645", "split": "train", "source": "Your deadlift form is flawless now.", "domain": "health/fitness", "intent": "compliment"}
+{"id": "titan_0656", "split": "train", "source": "I regret that I forgot to freeze the extra portions before they spoiled.", "domain": "food/cooking", "intent": "apology"}
+{"id": "titan_0657", "split": "train", "source": "leftover pizza for breakfast, no regrets", "domain": "food/cooking", "intent": "small talk"}
+{"id": "titan_0664", "split": "train", "source": "we got the last campsite by the lake, booked it for 3 nights", "domain": "weather/nature/outdoors", "intent": "good news"}
+{"id": "titan_0666", "split": "train", "source": "The park service closed the upper loop for the season because of a rockslide, so our planned route is out.", "domain": "weather/nature/outdoors", "intent": "bad news"}
+{"id": "titan_0669", "split": "train", "source": "Pay yourself first every payday.", "domain": "finance/money", "intent": "instruction"}
+{"id": "titan_0670", "split": "train", "source": "finally hit my emergency fund goal, six months of expenses sitting in the account and i didnt touch it once this year", "domain": "finance/money", "intent": "good news"}
+{"id": "titan_0671", "split": "train", "source": "The boiler repair wiped out most of what we had saved for the holiday.", "domain": "finance/money", "intent": "bad news"}
+{"id": "titan_0678", "split": "train", "source": "Her teacher said she is the most patient kid in the class when it comes to helping the others with their reading.", "domain": "school/education", "intent": "compliment"}
+{"id": "titan_0687", "split": "train", "source": "fyi im rotating the shared wifi password on monday, new one in the vault", "domain": "tech/devices/software", "intent": "announce"}
+{"id": "titan_0688", "split": "train", "source": "Please restrict access to the customer database to the three named account managers only.", "domain": "tech/devices/software", "intent": "request"}
+{"id": "titan_0689", "split": "train", "source": "Sorry, I emailed the login.", "domain": "tech/devices/software", "intent": "apology"}
+{"id": "titan_0691", "split": "train", "source": "Follow through on every swing, even in practice.", "domain": "sports/games", "intent": "instruction"}
+{"id": "titan_0693", "split": "train", "source": "why do i keep slicing it", "domain": "sports/games", "intent": "question"}
+{"id": "titan_0705", "split": "train", "source": "Sorry I missed your party.", "domain": "holidays/celebrations", "intent": "apology"}
+{"id": "titan_0706", "split": "train", "source": "The surprise party actually worked; she walked in, saw forty people, and had absolutely no idea it was happening.", "domain": "holidays/celebrations", "intent": "good news"}
+{"id": "titan_0712", "split": "train", "source": "The venue's sound mix was so poor that the vocals were inaudible from the balcony.", "domain": "entertainment", "intent": "complaint"}
+{"id": "titan_0723", "split": "train", "source": "Who owns the renewal for this client?", "domain": "workplace", "intent": "question"}
+{"id": "titan_0728", "split": "train", "source": "You handled the pricing pushback from the client really calmly today.", "domain": "workplace", "intent": "compliment"}
+{"id": "titan_0732", "split": "train", "source": "the prospect wants us to drop the price by 40% or they walk, can we just do it", "domain": "workplace", "intent": "refusal"}
+{"id": "titan_0734", "split": "train", "source": "The quarterly client review is Thursday.", "domain": "workplace", "intent": "announce"}
+{"id": "titan_0737", "split": "train", "source": "The leaking tap you said you'd fix has been dripping for three weeks now.", "domain": "home/chores", "intent": "complaint"}
+{"id": "titan_0738", "split": "train", "source": "Replace only the washer, not the whole faucet.", "domain": "home/chores", "intent": "instruction"}
+{"id": "titan_0739", "split": "train", "source": "sorry i stripped the screw on the cabinet hinge trying to tighten it, made it worse", "domain": "home/chores", "intent": "apology"}
+{"id": "titan_0741", "split": "train", "source": "Got the boiler serviced for 90 and the guy said it should last five more years.", "domain": "home/chores", "intent": "good news"}
+{"id": "titan_0748", "split": "train", "source": "They always say it's not fair when the other one gets to stay up later.", "domain": "home/kids", "intent": "small talk"}
+{"id": "titan_0749", "split": "train", "source": "liam keeps taking rosie's toys the second she puts them down and then says she wasn't using them", "domain": "home/kids", "intent": "complaint"}
+{"id": "titan_0751", "split": "train", "source": "Please have each child record their screen time so we can split it evenly.", "domain": "home/kids", "intent": "request"}
+{"id": "titan_0753", "split": "train", "source": "Grandpa seemed really happy you visited him at the home on Sunday.", "domain": "family/relationships", "intent": "compliment"}
+{"id": "titan_0757", "split": "train", "source": "Should we tell Grandma the truth about how sick Grandpa really is?", "domain": "family/relationships", "intent": "question"}
+{"id": "titan_0759", "split": "train", "source": "my cousin wants me to lie to grandma about why he missed her birthday again", "domain": "family/relationships", "intent": "refusal"}
+{"id": "titan_0760", "split": "train", "source": "Can you sit with Grandad a while even when he repeats the same stories?", "domain": "family/relationships", "intent": "request"}
+{"id": "titan_0763", "split": "train", "source": "RSVP to the party by Friday.", "domain": "social/dating", "intent": "instruction"}
+{"id": "titan_0766", "split": "train", "source": "Sorry I bailed on your dinner party last minute, I'll make it up to you.", "domain": "social/dating", "intent": "apology"}
+{"id": "titan_0785", "split": "train", "source": "why is there only one person on the tills when there's clearly twenty people waiting here", "domain": "retail/shopping", "intent": "question"}
+{"id": "titan_0795", "split": "train", "source": "Drivers never seem to look before opening their doors into the bike lane.", "domain": "transport/commute", "intent": "small talk"}
+{"id": "titan_0806", "split": "train", "source": "I feel like I finally cracked my routine of getting to bed by ten every night.", "domain": "health/fitness", "intent": "small talk"}
+{"id": "titan_0808", "split": "train", "source": "You look so much better since you started sleeping eight hours a night.", "domain": "health/fitness", "intent": "compliment"}
+{"id": "titan_0809", "split": "train", "source": "slept a full 9 hours last night for the first time in months and i feel like a new person", "domain": "health/fitness", "intent": "good news"}
+{"id": "titan_0820", "split": "train", "source": "The roses you've been tending all season are finally blooming.", "domain": "weather/nature/outdoors", "intent": "compliment"}
+{"id": "titan_0822", "split": "train", "source": "the first frost is coming this weekend and i haven't harvested half the vegetables yet", "domain": "weather/nature/outdoors", "intent": "bad news"}
+{"id": "titan_0828", "split": "train", "source": "I didn't realize how much of the payment in the early years is just interest.", "domain": "finance/money", "intent": "small talk"}
+{"id": "titan_0835", "split": "train", "source": "Three of the five group members did no work on the project due Friday.", "domain": "school/education", "intent": "bad news"}
+{"id": "titan_0844", "split": "train", "source": "I'm setting my phone to grayscale to make it less addictive.", "domain": "tech/devices/software", "intent": "announce"}
+{"id": "titan_0846", "split": "train", "source": "Sorry, I dropped your phone and cracked the screen; I'll pay to fix it.", "domain": "tech/devices/software", "intent": "apology"}
+{"id": "titan_0847", "split": "train", "source": "Thanks for setting up my new phone so quickly.", "domain": "tech/devices/software", "intent": "compliment"}
+{"id": "titan_0850", "split": "train", "source": "Can you wait before buying a new one?", "domain": "tech/devices/software", "intent": "request"}
+{"id": "titan_0851", "split": "train", "source": "Half the under-12 squad missed training twice this week before Saturday's match.", "domain": "sports/games", "intent": "complaint"}
+{"id": "titan_0852", "split": "train", "source": "tell the kids to pass more, if they all just chase the ball we'll lose like last week", "domain": "sports/games", "intent": "instruction"}
+{"id": "titan_0855", "split": "train", "source": "Which parent keeps yelling at the referee during the kids' matches?", "domain": "sports/games", "intent": "question"}
+{"id": "titan_0863", "split": "train", "source": "No one offered to help cook Thanksgiving again.", "domain": "holidays/celebrations", "intent": "complaint"}
+{"id": "titan_0868", "split": "train", "source": "Can we keep the Thanksgiving guest list to twelve this year?", "domain": "holidays/celebrations", "intent": "request"}
+{"id": "titan_0869", "split": "train", "source": "don't tell me how the book ends, i'm only halfway through and you always spoil everything", "domain": "entertainment", "intent": "warning"}
+{"id": "titan_0874", "split": "train", "source": "The sequel got cancelled before it was finished.", "domain": "entertainment", "intent": "bad news"}
+{"id": "titan_0875", "split": "train", "source": "I've renewed my parking permit twice and the council still says it's expired.", "domain": "civic/admin/housing", "intent": "complaint"}
+{"id": "titan_0879", "split": "train", "source": "is it worth appealing the parking fine or should i just pay the 60 and move on", "domain": "civic/admin/housing", "intent": "question"}
+{"id": "titan_0882", "split": "train", "source": "fyi im muting the general channel", "domain": "workplace", "intent": "announce"}
+{"id": "titan_0896", "split": "train", "source": "ppl keep sending me stuff at 11pm and expecting answers by morning", "domain": "workplace", "intent": "complaint"}
+{"id": "titan_0901", "split": "train", "source": "You bought three jars of pickles and we still have two in the pantry.", "domain": "home/chores", "intent": "complaint"}
+{"id": "titan_0903", "split": "train", "source": "I am sorry; I forgot the rice you asked for because I was reading the list from the wrong week on my phone.", "domain": "home/chores", "intent": "apology"}
+{"id": "titan_0904", "split": "train", "source": "You planned the whole week's meals on one sheet, that's impressive.", "domain": "home/chores", "intent": "compliment"}
+{"id": "titan_0910", "split": "train", "source": "Sorry I forgot your allowance yesterday.", "domain": "home/kids", "intent": "apology"}
+{"id": "titan_0914", "split": "train", "source": "Family reunion is on 14 June.", "domain": "family/relationships", "intent": "announce"}
+{"id": "titan_0921", "split": "train", "source": "I finally told him I need space, and he actually respected it.", "domain": "social/dating", "intent": "good news"}
+{"id": "titan_0923", "split": "train", "source": "I would advise you not to respond to his messages after midnight; he tends to say things he does not mean at that hour, and you deserve better than that.", "domain": "social/dating", "intent": "warning"}
+{"id": "titan_0927", "split": "train", "source": "I regret to say that my sister and her partner have separated after eight years; she will be staying with us for the foreseeable future.", "domain": "social/dating", "intent": "bad news"}
+{"id": "titan_0929", "split": "train", "source": "tell me honestly, was i wrong to block her?", "domain": "social/dating", "intent": "request"}
+{"id": "titan_0934", "split": "train", "source": "Please clear access to the meter.", "domain": "customer service", "intent": "instruction"}
+{"id": "titan_0936", "split": "train", "source": "the guy who fixed the boiler was great, in and out in 20 min", "domain": "customer service", "intent": "compliment"}
+{"id": "titan_0939", "split": "train", "source": "heads up, if you buy off the registry they might already have it, two people got them the same blender last time", "domain": "retail/shopping", "intent": "warning"}
+{"id": "titan_0941", "split": "train", "source": "Could you add the $60 kettle to the registry for us?", "domain": "retail/shopping", "intent": "request"}
+{"id": "titan_0943", "split": "train", "source": "Unfortunately the item you selected from the registry has been discontinued by the manufacturer and cannot be reordered.", "domain": "retail/shopping", "intent": "bad news"}
+{"id": "titan_0946", "split": "train", "source": "Registry closes Sunday night.", "domain": "retail/shopping", "intent": "announce"}
+{"id": "titan_0950", "split": "train", "source": "Print two copies of the itinerary.", "domain": "travel", "intent": "instruction"}
+{"id": "titan_0961", "split": "train", "source": "Could you split the taxi fare with me? It was $34.", "domain": "transport/commute", "intent": "request"}
+{"id": "titan_0963", "split": "train", "source": "Is it advisable to skip breakfast entirely if I am trying to reduce my daily calorie intake, or does it simply lead to overeating later?", "domain": "health/fitness", "intent": "question"}
+{"id": "titan_0964", "split": "train", "source": "I've been trying to eat more vegetables but it's harder than it sounds.", "domain": "health/fitness", "intent": "small talk"}
+{"id": "titan_0974", "split": "train", "source": "Dinner is served at 7:30 sharp.", "domain": "food/cooking", "intent": "announce"}
+{"id": "titan_0981", "split": "train", "source": "The neighbor never shovels his half of the sidewalk, and I've slipped twice.", "domain": "weather/nature/outdoors", "intent": "complaint"}
+{"id": "titan_0989", "split": "train", "source": "can you venmo me ur half of the hotel? $140", "domain": "finance/money", "intent": "request"}
+{"id": "titan_0997", "split": "train", "source": "The application portal lost my uploaded transcript for the second time.", "domain": "school/education", "intent": "complaint"}
+{"id": "titan_1000", "split": "train", "source": "Your essay about your grandfather's shop is the best thing I've read from a student in years, truly.", "domain": "school/education", "intent": "compliment"}
+{"id": "titan_1010", "split": "train", "source": "Keyboard order delayed until March.", "domain": "tech/devices/software", "intent": "announce"}
+{"id": "titan_1015", "split": "train", "source": "Sorry I shouted at the TV so much last night, I know it was annoying with the kids trying to sleep.", "domain": "sports/games", "intent": "apology"}
+{"id": "titan_1016", "split": "train", "source": "the way you explained the offside rule to my mom was honestly amazing", "domain": "sports/games", "intent": "compliment"}
+{"id": "titan_1023", "split": "train", "source": "Would it be appropriate to give my manager a gift for Christmas, or might that be perceived as an attempt to curry favour?", "domain": "holidays/celebrations", "intent": "question"}
+{"id": "titan_1026", "split": "train", "source": "Gift exchange is on the 20th.", "domain": "holidays/celebrations", "intent": "announce"}
+{"id": "titan_1030", "split": "train", "source": "Cancel the subscriptions we don't use.", "domain": "entertainment", "intent": "instruction"}
+{"id": "titan_1035", "split": "train", "source": "If the power company doesn't restore service to our street by tonight, I'm filing a formal complaint with the regulator; it's been 36 hours.", "domain": "civic/admin/housing", "intent": "warning"}
+{"id": "titan_1056", "split": "train", "source": "The onboarding survey results indicate improved satisfaction among recent cohorts.", "domain": "workplace", "intent": "small talk"}
+{"id": "titan_1061", "split": "train", "source": "The electricity bill dropped by half.", "domain": "home/chores", "intent": "good news"}
+{"id": "titan_1063", "split": "train", "source": "Please note that if the balance of $136.50 is not received by the 20th, service to this address will be suspended without further notice.", "domain": "home/chores", "intent": "warning"}
+{"id": "titan_1068", "split": "train", "source": "mornings with two kids under six are pure chaos lol", "domain": "home/kids", "intent": "small talk"}
+{"id": "titan_1070", "split": "train", "source": "Eat your breakfast sitting down, there's time.", "domain": "home/kids", "intent": "instruction"}
+{"id": "titan_1074", "split": "train", "source": "dad called, grandma's not doing great and he thinks i should fly out soon rather than wait for the holidays", "domain": "family/relationships", "intent": "bad news"}
+{"id": "titan_1082", "split": "train", "source": "can you write a note for maya, she drove me to the airport at 4am", "domain": "social/dating", "intent": "request"}
+{"id": "titan_1084", "split": "train", "source": "You always remember the small stuff, like how I take my coffee.", "domain": "social/dating", "intent": "compliment"}
+{"id": "titan_1089", "split": "train", "source": "Please process my warranty claim.", "domain": "customer service", "intent": "request"}
+{"id": "titan_1092", "split": "train", "source": "Most customers do not register their warranty until something has already failed.", "domain": "customer service", "intent": "small talk"}
+{"id": "titan_1095", "split": "train", "source": "We apologize; your claim was closed in error and has been reopened.", "domain": "customer service", "intent": "apology"}
+{"id": "titan_1101", "split": "train", "source": "Can I get the extended warranty?", "domain": "retail/shopping", "intent": "request"}
+{"id": "titan_1102", "split": "train", "source": "the new headphones come out friday, preorders open tonight at 9", "domain": "retail/shopping", "intent": "announce"}
+{"id": "titan_1105", "split": "train", "source": "charger died after 2 weeks", "domain": "retail/shopping", "intent": "complaint"}
+{"id": "titan_1109", "split": "train", "source": "We made it to Jaipur early.", "domain": "travel", "intent": "good news"}
+{"id": "titan_1111", "split": "train", "source": "if we dont fill up at the next station there's nothing for like 120 km and i'm not pushing this car again", "domain": "travel", "intent": "warning"}
+{"id": "titan_1114", "split": "train", "source": "ok so we're doing the coastal road instead of the highway, it adds an hour but the views are supposed to be insane", "domain": "travel", "intent": "announce"}
+{"id": "titan_1116", "split": "train", "source": "Regular tire rotation extends the life of a vehicle considerably.", "domain": "transport/commute", "intent": "small talk"}
+{"id": "titan_1117", "split": "train", "source": "mechanic charged 6k for brake pads", "domain": "transport/commute", "intent": "complaint"}
+{"id": "titan_1122", "split": "train", "source": "timing belt's gone, 20k repair", "domain": "transport/commute", "intent": "bad news"}
+{"id": "titan_1125", "split": "train", "source": "can you carry the groceries up, my back's still bad from last week", "domain": "health/fitness", "intent": "request"}
+{"id": "titan_1132", "split": "train", "source": "This chai is perfect, exactly like my grandmother used to make.", "domain": "food/cooking", "intent": "compliment"}
+{"id": "titan_1141", "split": "train", "source": "Someone left broken glass all over the beach again.", "domain": "weather/nature/outdoors", "intent": "complaint"}
+{"id": "titan_1142", "split": "train", "source": "reapply sunscreen every 2 hrs", "domain": "weather/nature/outdoors", "intent": "instruction"}
+{"id": "titan_1146", "split": "train", "source": "The beach trip is rained out.", "domain": "weather/nature/outdoors", "intent": "bad news"}
+{"id": "titan_1148", "split": "train", "source": "not taking the counter offer, 10% more isn't worth staying somewhere i've already decided to leave", "domain": "finance/money", "intent": "refusal"}
+{"id": "titan_1156", "split": "train", "source": "Congratulations on completing the cloud certification while working full time.", "domain": "school/education", "intent": "compliment"}
+{"id": "titan_1157", "split": "train", "source": "The company agreed to pay for the machine learning course, all six months of it, as long as I finish.", "domain": "school/education", "intent": "good news"}
+{"id": "titan_1159", "split": "train", "source": "dont sign up for 4 courses at once, you'll finish none of them", "domain": "school/education", "intent": "warning"}
+{"id": "titan_1168", "split": "train", "source": "ngl that bug report you wrote was so clear i fixed it in 10 min, steps, logs, expected vs actual, everything", "domain": "tech/devices/software", "intent": "compliment"}
+{"id": "titan_1176", "split": "train", "source": "Please shuffle the deck thoroughly before each hand to ensure fair play.", "domain": "sports/games", "intent": "instruction"}
+{"id": "titan_1197", "split": "train", "source": "Does anyone know if the notice about the parking reallocation applies to residents who already paid for their spot this year?", "domain": "civic/admin/housing", "intent": "question"}
+{"id": "titan_1364", "split": "train", "source": "The third-floor kitchen will be closed for cleaning most of the afternoon.", "domain": "workplace", "intent": "small talk"}
+{"id": "titan_1381", "split": "train", "source": "The recycling is overflowing again.", "domain": "home/chores", "intent": "complaint"}
+{"id": "titan_1387", "split": "train", "source": "Flu shots are due Saturday.", "domain": "home/kids", "intent": "announce"}
+{"id": "titan_1400", "split": "train", "source": "You have been so steady looking after your aunt these past months.", "domain": "family/relationships", "intent": "compliment"}
+{"id": "titan_1401", "split": "train", "source": "should i leave the group chat or is that gonna cause drama", "domain": "social/dating", "intent": "question"}
+{"id": "titan_1404", "split": "train", "source": "this chat never sleeps lol", "domain": "social/dating", "intent": "small talk"}
+{"id": "titan_1407", "split": "train", "source": "Let's keep the surprise party details out of the main chat so she doesn't see.", "domain": "social/dating", "intent": "warning"}
+{"id": "titan_1410", "split": "train", "source": "can u help me get back into my locked account, i lost my phone", "domain": "customer service", "intent": "request"}
+{"id": "titan_1417", "split": "train", "source": "Does the price of the sofa include delivery and assembly?", "domain": "retail/shopping", "intent": "question"}
+{"id": "titan_1420", "split": "train", "source": "After saving for a year, we finally bought the bookshelf we had been eyeing for the living room.", "domain": "retail/shopping", "intent": "good news"}
+{"id": "titan_1422", "split": "train", "source": "measure the doorway first", "domain": "retail/shopping", "intent": "warning"}
+{"id": "titan_1425", "split": "train", "source": "Will there be enough overhead space for all five of our carry-on bags?", "domain": "travel", "intent": "question"}
+{"id": "titan_1428", "split": "train", "source": "kids so cranky from the flight", "domain": "travel", "intent": "complaint"}
+{"id": "titan_1431", "split": "train", "source": "You planned this trip perfectly.", "domain": "travel", "intent": "compliment"}
+{"id": "titan_1434", "split": "train", "source": "Watch the children near the harbour.", "domain": "travel", "intent": "warning"}
+{"id": "titan_1442", "split": "train", "source": "Sorry I made us miss the 9 am hop to the island; I will drive us to the next departure point myself.", "domain": "transport/commute", "intent": "apology"}
+{"id": "titan_1443", "split": "train", "source": "Do I really need a dental cleaning every six months?", "domain": "health/fitness", "intent": "question"}
+{"id": "titan_1446", "split": "train", "source": "dentist says i need 2 fillings and a crown, gonna be pricey", "domain": "health/fitness", "intent": "bad news"}
+{"id": "titan_1451", "split": "train", "source": "What should we cook this week?", "domain": "food/cooking", "intent": "question"}
+{"id": "titan_1458", "split": "train", "source": "We ran out of money for groceries three days before payday again.", "domain": "food/cooking", "intent": "bad news"}
+{"id": "titan_1465", "split": "train", "source": "The fallen branch damaged the shed and no one cleared it for a week.", "domain": "weather/nature/outdoors", "intent": "complaint"}
+{"id": "titan_1467", "split": "train", "source": "Sorry, I forgot to cancel the free trial and we got charged $40.", "domain": "finance/money", "intent": "apology"}
+{"id": "titan_1468", "split": "train", "source": "You cut all our wasteful subscriptions.", "domain": "finance/money", "intent": "compliment"}
+{"id": "titan_1478", "split": "train", "source": "Limit each study session to forty-five minutes with a short break between.", "domain": "school/education", "intent": "instruction"}
+{"id": "titan_1486", "split": "train", "source": "switching us all to the new video app from monday fyi", "domain": "tech/devices/software", "intent": "announce"}
+{"id": "titan_1487", "split": "train", "source": "Why does the video call keep dropping every time more than ten participants join the room?", "domain": "tech/devices/software", "intent": "question"}
+{"id": "titan_1494", "split": "train", "source": "They are shutting down the servers for our favourite game next year.", "domain": "sports/games", "intent": "bad news"}
+{"id": "titan_1496", "split": "train", "source": "can i stay up and finish this raid, its almost 1am", "domain": "sports/games", "intent": "refusal"}
+{"id": "titan_1498", "split": "train", "source": "We are adopting a second cat from the shelter this weekend.", "domain": "pets", "intent": "announce"}
+{"id": "titan_1504", "split": "train", "source": "the team party you planned was honestly the best one weve had", "domain": "holidays/celebrations", "intent": "compliment"}
+{"id": "titan_1507", "split": "train", "source": "Please pace yourself at the open bar tonight, since several people rather embarrassed themselves badly last year.", "domain": "holidays/celebrations", "intent": "warning"}
+{"id": "titan_1508", "split": "train", "source": "Can we invite clients too?", "domain": "holidays/celebrations", "intent": "refusal"}
+{"id": "titan_1515", "split": "train", "source": "forgot to renew the parking permit", "domain": "civic/admin/housing", "intent": "apology"}
+{"id": "titan_1517", "split": "train", "source": "got the parking fine waived", "domain": "civic/admin/housing", "intent": "good news"}
+{"id": "titan_1520", "split": "train", "source": "Can the council fast-track my parking permit application before the holidays?", "domain": "civic/admin/housing", "intent": "refusal"}
+{"id": "titan_1524", "split": "train", "source": "honestly my review went better than i expected lol", "domain": "workplace", "intent": "small talk"}
+{"id": "titan_1529", "split": "train", "source": "so my manager said i'm getting promoted to senior next cycle, apparently the feedback from the client project tipped it", "domain": "workplace", "intent": "good news"}
+{"id": "titan_1530", "split": "train", "source": "Your promotion has been deferred.", "domain": "workplace", "intent": "bad news"}
+{"id": "titan_1531", "split": "train", "source": "If the numbers don't improve this quarter, it will show up in your review.", "domain": "workplace", "intent": "warning"}
+{"id": "titan_1538", "split": "train", "source": "ok so when the neighbours come over saturday just use the good plates and keep the dog in the back room, we only have 8 chairs anyway", "domain": "home/chores", "intent": "instruction"}
+{"id": "titan_1539", "split": "train", "source": "Sorry the lasagna was undercooked; I misjudged the oven.", "domain": "home/chores", "intent": "apology"}
+{"id": "titan_1541", "split": "train", "source": "the in-laws loved the dinner!!", "domain": "home/chores", "intent": "good news"}
+{"id": "titan_1543", "split": "train", "source": "Please note that the building permits a maximum of ten overnight visitors per unit, and any gathering after 10 pm must be registered with the front desk.", "domain": "home/chores", "intent": "warning"}
+{"id": "titan_1544", "split": "train", "source": "nah we can't host this year, the flat's way too small", "domain": "home/chores", "intent": "refusal"}
+{"id": "titan_1560", "split": "train", "source": "Family dinners have been tense ever since the wedding argument.", "domain": "family/relationships", "intent": "small talk"}
+{"id": "titan_1569", "split": "train", "source": "hi, i need to cancel my gym membership, i moved to pune last month and there's no branch here, can you process it without the 30 day notice", "domain": "customer service", "intent": "request"}
+{"id": "titan_1572", "split": "train", "source": "I spent forty minutes on the phone trying to cancel a streaming service that took thirty seconds to sign up for.", "domain": "customer service", "intent": "small talk"}
+{"id": "titan_1575", "split": "train", "source": "We apologise that your cancellation was not processed as requested on 4 October; the duplicate charge of 1,200 rupees will be reversed within five working days.", "domain": "customer service", "intent": "apology"}
+{"id": "titan_1587", "split": "train", "source": "I apologise for overspending on the Rome leg; I will cover the difference myself.", "domain": "travel", "intent": "apology"}
+{"id": "titan_1596", "split": "train", "source": "I still get lost in this city after three years.", "domain": "transport/commute", "intent": "small talk"}
+{"id": "titan_1598", "split": "train", "source": "ok from the station walk straight past the temple, left at the chemist, and we're the blue gate on the right, don't follow maps it'll take you round the back", "domain": "transport/commute", "intent": "instruction"}
+{"id": "titan_1605", "split": "train", "source": "Pace me for the last mile.", "domain": "health/fitness", "intent": "request"}
+{"id": "titan_1609", "split": "train", "source": "the race organisers ran out of water at the 15k mark and then had the nerve to charge 800 for the finisher photos", "domain": "health/fitness", "intent": "complaint"}
+{"id": "titan_1611", "split": "train", "source": "Sorry about the rice, I know it was mushy tonight.", "domain": "food/cooking", "intent": "apology"}
+{"id": "titan_1617", "split": "train", "source": "Could this be reheated, please?", "domain": "food/cooking", "intent": "request"}
+{"id": "titan_1625", "split": "train", "source": "Rain finally washed the smog out.", "domain": "weather/nature/outdoors", "intent": "good news"}
+{"id": "titan_1632", "split": "train", "source": "I keep telling myself I'll start tracking my spending properly next month, and then next month arrives and I say it again.", "domain": "finance/money", "intent": "small talk"}
+{"id": "titan_1641", "split": "train", "source": "pay the trip fee today pls", "domain": "school/education", "intent": "request"}
+{"id": "titan_1642", "split": "train", "source": "The spring concert is on April 12th at 6 pm in the main hall.", "domain": "school/education", "intent": "announce"}
+{"id": "titan_1643", "split": "train", "source": "Could you confirm who currently has edit access to the budget spreadsheet, as the totals in column F appear to have been altered since yesterday's review?", "domain": "tech/devices/software", "intent": "question"}
+{"id": "titan_1648", "split": "train", "source": "heads up, the shared drive is at 98% so stop uploading videos", "domain": "tech/devices/software", "intent": "announce"}
+{"id": "titan_1650", "split": "train", "source": "The shared tracker is currently unavailable.", "domain": "tech/devices/software", "intent": "bad news"}
+{"id": "titan_1655", "split": "train", "source": "Would you be able to explain why my son was allowed to return to the pitch after a visible head knock without any assessment from the medical staff?", "domain": "sports/games", "intent": "question"}
+{"id": "titan_1657", "split": "train", "source": "The hamster escaped again overnight.", "domain": "pets", "intent": "complaint"}
+{"id": "titan_1658", "split": "train", "source": "ok so the goldfish gets fed once in the morning, tiny pinch, and change a third of the water on sunday, don't do the whole tank or you'll shock them", "domain": "pets", "intent": "instruction"}
+{"id": "titan_1662", "split": "train", "source": "The vet says our old guinea pig only has a few weeks left.", "domain": "pets", "intent": "bad news"}
+{"id": "titan_1665", "split": "train", "source": "Book the restaurant before Friday.", "domain": "holidays/celebrations", "intent": "request"}
+{"id": "titan_1668", "split": "train", "source": "25 years married and they still bicker about the thermostat lol", "domain": "holidays/celebrations", "intent": "small talk"}
+{"id": "titan_1669", "split": "train", "source": "queued online for 2 hours for the concert tickets, got to the front and it said sold out, then saw them on resale for triple the price ten minutes later", "domain": "entertainment", "intent": "complaint"}
+{"id": "titan_1672", "split": "train", "source": "You somehow got front-row seats for the play on opening night, and I still don't understand how you managed it.", "domain": "entertainment", "intent": "compliment"}
+{"id": "titan_1677", "split": "train", "source": "Volunteers needed for Saturday's cleanup.", "domain": "civic/admin/housing", "intent": "request"}
+{"id": "titan_1680", "split": "train", "source": "The monsoon fair has happened every year since my grandfather's time.", "domain": "civic/admin/housing", "intent": "small talk"}
+{"id": "titan_0006", "split": "validation", "source": "Our flight boards at gate 12 in twenty minutes.", "domain": "travel", "intent": "announce"}
+{"id": "titan_0032", "split": "validation", "source": "The electricity bill was higher than usual this month.", "domain": "home/chores", "intent": "announce"}
+{"id": "titan_0033", "split": "validation", "source": "Please reset your password; it has to be at least twelve characters.", "domain": "tech/devices/software", "intent": "instruction"}
+{"id": "titan_0043", "split": "validation", "source": "Is there a tracking number for my package?", "domain": "customer service", "intent": "question"}
+{"id": "titan_0073", "split": "validation", "source": "When can we expect the final numbers from finance?", "domain": "workplace", "intent": "question"}
+{"id": "titan_0091", "split": "validation", "source": "Someone left the fridge open overnight.", "domain": "home/chores", "intent": "complaint"}
+{"id": "titan_0122", "split": "validation", "source": "You handled that argument really well, honestly I was impressed.", "domain": "social/dating", "intent": "compliment"}
+{"id": "titan_0131", "split": "validation", "source": "Heat advisory in effect until 8 pm; stay indoors and drink plenty of fluids.", "domain": "weather/nature/outdoors", "intent": "announce"}
+{"id": "titan_0132", "split": "validation", "source": "can u pls stop changing the shared spreadsheet formulas without telling anyone", "domain": "tech/devices/software", "intent": "request"}
+{"id": "titan_0144", "split": "validation", "source": "How long do you let the dough rise?", "domain": "food/cooking", "intent": "question"}
+{"id": "titan_0146", "split": "validation", "source": "Thanks for staying late to fix the deployment, you saved us.", "domain": "workplace", "intent": "compliment"}
+{"id": "titan_0156", "split": "validation", "source": "Report cards come home on Friday.", "domain": "school/education", "intent": "announce"}
+{"id": "titan_0170", "split": "validation", "source": "Carry-on bags must not exceed 7 kg and must fit in the overhead compartment.", "domain": "travel", "intent": "announce"}
+{"id": "titan_0198", "split": "validation", "source": "We can't afford to fly home for the holidays this year.", "domain": "holidays/celebrations", "intent": "bad news"}
+{"id": "titan_0240", "split": "validation", "source": "we're doing a potluck friday, sign up for a dish on the sheet", "domain": "food/cooking", "intent": "announce"}
+{"id": "titan_0409", "split": "validation", "source": "Zero rollbacks this quarter.", "domain": "workplace", "intent": "good news"}
+{"id": "titan_0432", "split": "validation", "source": "If the project isn't handed in by Friday, the teacher said it's a zero.", "domain": "home/kids", "intent": "warning"}
+{"id": "titan_0435", "split": "validation", "source": "call mom back, she's worried", "domain": "family/relationships", "intent": "request"}
+{"id": "titan_0461", "split": "validation", "source": "Can you apply my loyalty discount?", "domain": "retail/shopping", "intent": "request"}
+{"id": "titan_0472", "split": "validation", "source": "Leave your key card at reception when you check out.", "domain": "travel", "intent": "instruction"}
+{"id": "titan_0482", "split": "validation", "source": "They finally added a second entrance to the car park, so no more queues.", "domain": "transport/commute", "intent": "good news"}
+{"id": "titan_0511", "split": "validation", "source": "The quarterly budget closed under target.", "domain": "finance/money", "intent": "good news"}
+{"id": "titan_0533", "split": "validation", "source": "Every year we tell ourselves this is finally the season, and every year we finish exactly mid-table.", "domain": "sports/games", "intent": "small talk"}
+{"id": "titan_0535", "split": "validation", "source": "Lose Saturday and we are relegated.", "domain": "sports/games", "intent": "warning"}
+{"id": "titan_0545", "split": "validation", "source": "I would like to thank whoever arranged the Diwali lights across the courtyard this year; it was the finest display the building has had.", "domain": "holidays/celebrations", "intent": "compliment"}
+{"id": "titan_0608", "split": "validation", "source": "Kindly note that reservations will not be held for anyone unconfirmed by Thursday.", "domain": "social/dating", "intent": "warning"}
+{"id": "titan_0612", "split": "validation", "source": "I was billed for a premium tier that I did not select or authorize.", "domain": "customer service", "intent": "complaint"}
+{"id": "titan_0617", "split": "validation", "source": "cancel before the trial ends", "domain": "customer service", "intent": "instruction"}
+{"id": "titan_0620", "split": "validation", "source": "I have now waited eleven days for an order that was advertised as two-day delivery, and the tracking page has not updated since Friday.", "domain": "retail/shopping", "intent": "complaint"}
+{"id": "titan_0622", "split": "validation", "source": "Please cancel order number 48213 before it is dispatched, as the item was purchased in error and is no longer required.", "domain": "retail/shopping", "intent": "request"}
+{"id": "titan_0634", "split": "validation", "source": "Your packing list saved me on this trip; I did not forget a single thing for the first time in my life.", "domain": "travel", "intent": "compliment"}
+{"id": "titan_0648", "split": "validation", "source": "The gym will operate on reduced hours from 7 am to 7 pm throughout August.", "domain": "health/fitness", "intent": "announce"}
+{"id": "titan_0650", "split": "validation", "source": "physio says i cant squat for at least six weeks bc of the knee thing, which is honestly the worst possible timing", "domain": "health/fitness", "intent": "bad news"}
+{"id": "titan_0654", "split": "validation", "source": "Is there a way to use up the roast chicken bones and the wilting herbs before I end up throwing them all away?", "domain": "food/cooking", "intent": "question"}
+{"id": "titan_0680", "split": "validation", "source": "We regret to inform you that the school counsellor has recommended your son repeat the year in order to consolidate his reading skills.", "domain": "school/education", "intent": "bad news"}
+{"id": "titan_0692", "split": "validation", "source": "Your footwork has improved markedly since the summer coaching sessions.", "domain": "sports/games", "intent": "compliment"}
+{"id": "titan_0696", "split": "validation", "source": "Players who skip the conditioning sessions will not be considered for the regional squad.", "domain": "sports/games", "intent": "warning"}
+{"id": "titan_0701", "split": "validation", "source": "my steps are all dog walks", "domain": "pets", "intent": "small talk"}
+{"id": "titan_0715", "split": "validation", "source": "The passport office now requires appointments; walk-ins are no longer accepted.", "domain": "civic/admin/housing", "intent": "announce"}
+{"id": "titan_0733", "split": "validation", "source": "Could you redo the forecast? The numbers for the Dalton account look inflated.", "domain": "workplace", "intent": "request"}
+{"id": "titan_0735", "split": "validation", "source": "Why did the Pressfield renewal slip without anyone flagging it to me?", "domain": "workplace", "intent": "question"}
+{"id": "titan_0784", "split": "validation", "source": "They're trialing a express lane for baskets under ten items from Monday.", "domain": "retail/shopping", "intent": "announce"}
+{"id": "titan_0817", "split": "validation", "source": "Is it rude to ask guests about their dietary needs before the dinner?", "domain": "food/cooking", "intent": "question"}
+{"id": "titan_0823", "split": "validation", "source": "Prune the apple tree before winter.", "domain": "weather/nature/outdoors", "intent": "request"}
+{"id": "titan_0824", "split": "validation", "source": "I planted tomatoes too early and the cold snap killed every one of them.", "domain": "weather/nature/outdoors", "intent": "complaint"}
+{"id": "titan_0830", "split": "validation", "source": "Can we take the loan this month?", "domain": "finance/money", "intent": "refusal"}
+{"id": "titan_0849", "split": "validation", "source": "dropped my phone in the sink and now the screen's totally black even though it still rings", "domain": "tech/devices/software", "intent": "bad news"}
+{"id": "titan_0859", "split": "validation", "source": "sorry i let the dog off the lead in the park, he ran off and ignored every recall command", "domain": "pets", "intent": "apology"}
+{"id": "titan_0886", "split": "validation", "source": "Use a subject line, always.", "domain": "workplace", "intent": "instruction"}
+{"id": "titan_0905", "split": "validation", "source": "the kids actually did all their chores this week without being asked!!", "domain": "home/kids", "intent": "good news"}
+{"id": "titan_0906", "split": "validation", "source": "He skipped dishes three nights running.", "domain": "home/kids", "intent": "bad news"}
+{"id": "titan_0951", "split": "validation", "source": "I apologise for the delay in returning your passport; the courier mislabelled the envelope and it was held at the depot for four days.", "domain": "travel", "intent": "apology"}
+{"id": "titan_0957", "split": "validation", "source": "Can you book me a cab for 6:15 tomorrow morning?", "domain": "transport/commute", "intent": "request"}
+{"id": "titan_0969", "split": "validation", "source": "cholesterol numbers came back normal, the diet actually worked", "domain": "health/fitness", "intent": "good news"}
+{"id": "titan_0972", "split": "validation", "source": "no im not making a separate vegan main AND a gluten free one, pick one", "domain": "food/cooking", "intent": "refusal"}
+{"id": "titan_0987", "split": "validation", "source": "Please be aware that if the shared utility bill is not settled by all four housemates by the 10th, the account holder will be charged a late fee of $25.", "domain": "finance/money", "intent": "warning"}
+{"id": "titan_1001", "split": "validation", "source": "I got into my second choice with a $12,000 scholarship.", "domain": "school/education", "intent": "good news"}
+{"id": "titan_1007", "split": "validation", "source": "Would someone be able to show me how to connect the second monitor; I have tried the settings menu and nothing appears to work?", "domain": "tech/devices/software", "intent": "question"}
+{"id": "titan_1017", "split": "validation", "source": "The shelter approved our application; we pick up the puppy on Saturday.", "domain": "pets", "intent": "good news"}
+{"id": "titan_1032", "split": "validation", "source": "ur spreadsheet of which show is on which service is genuinely saving my life", "domain": "entertainment", "intent": "compliment"}
+{"id": "titan_1038", "split": "validation", "source": "Gas outage Tuesday, 9 am–3 pm.", "domain": "civic/admin/housing", "intent": "announce"}
+{"id": "titan_1041", "split": "validation", "source": "Can you interview the candidate Thursday?", "domain": "workplace", "intent": "request"}
+{"id": "titan_1048", "split": "validation", "source": "honestly the best onboarding i've had, everything was ready on day one", "domain": "workplace", "intent": "compliment"}
+{"id": "titan_1054", "split": "validation", "source": "fyi we're switching the interview loop to 3 rounds instead of 5 starting next quarter, too many good people were dropping out halfway", "domain": "workplace", "intent": "announce"}
+{"id": "titan_1060", "split": "validation", "source": "You've been tracking every bill in that spreadsheet for six months straight and we haven't missed a single payment since.", "domain": "home/chores", "intent": "compliment"}
+{"id": "titan_1064", "split": "validation", "source": "No, we're not switching to the cheaper phone plan with the worse coverage.", "domain": "home/chores", "intent": "refusal"}
+{"id": "titan_1067", "split": "validation", "source": "Would it be possible for Aarav to arrive at 8:15 instead of 8:00 on Wednesdays, as he has a physiotherapy session beforehand?", "domain": "home/kids", "intent": "question"}
+{"id": "titan_1076", "split": "validation", "source": "I will not be able to attend the family reunion in Toronto this year.", "domain": "family/relationships", "intent": "refusal"}
+{"id": "titan_1091", "split": "validation", "source": "does the 2 year warranty cover the screen if the crack was from a drop or is that considered my fault", "domain": "customer service", "intent": "question"}
+{"id": "titan_1106", "split": "validation", "source": "Check the return policy before you buy the tablet.", "domain": "retail/shopping", "intent": "instruction"}
+{"id": "titan_1120", "split": "validation", "source": "Could you drop the car at the garage on Tuesday and pick it up Thursday, since I'll be traveling for work those days?", "domain": "transport/commute", "intent": "request"}
+{"id": "titan_1121", "split": "validation", "source": "The car passed inspection with no issues at all this year.", "domain": "transport/commute", "intent": "good news"}
+{"id": "titan_1133", "split": "validation", "source": "The new espresso machine has been installed in the staff kitchen.", "domain": "food/cooking", "intent": "good news"}
+{"id": "titan_1149", "split": "validation", "source": "I would like to request a salary review in light of my expanded responsibilities.", "domain": "finance/money", "intent": "request"}
+{"id": "titan_1153", "split": "validation", "source": "My annual increment was 3%, which does not reflect the performance rating I received.", "domain": "finance/money", "intent": "complaint"}
+{"id": "titan_1166", "split": "validation", "source": "Write the failing test first.", "domain": "tech/devices/software", "intent": "instruction"}
+{"id": "titan_1196", "split": "validation", "source": "Water is off Sunday from 10 am to 2 pm for tank cleaning.", "domain": "civic/admin/housing", "intent": "announce"}
+{"id": "titan_1361", "split": "validation", "source": "can everyone update their desk booking in the app before friday pls", "domain": "workplace", "intent": "request"}
+{"id": "titan_1383", "split": "validation", "source": "sorry i forgot to take the trash out again tuesday, i know thats twice this month now", "domain": "home/chores", "intent": "apology"}
+{"id": "titan_1384", "split": "validation", "source": "The new labelled storage bins in the basement have made everything so easy to find.", "domain": "home/chores", "intent": "compliment"}
+{"id": "titan_1385", "split": "validation", "source": "did u ever book the kids 6 month checkup with dr mehta or is that still on my list", "domain": "home/kids", "intent": "question"}
+{"id": "titan_1395", "split": "validation", "source": "We have decided to move Mom into assisted living next month.", "domain": "family/relationships", "intent": "announce"}
+{"id": "titan_1408", "split": "validation", "source": "can u add my ex to the trip group chat please? we're totally cool now i swear it wont be weird", "domain": "social/dating", "intent": "refusal"}
+{"id": "titan_1450", "split": "validation", "source": "I booked the whole family in for dental checkups next Thursday.", "domain": "health/fitness", "intent": "announce"}
+{"id": "titan_1462", "split": "validation", "source": "The utility company estimates power will be restored by 6 pm tomorrow.", "domain": "weather/nature/outdoors", "intent": "announce"}
+{"id": "titan_1476", "split": "validation", "source": "It is amazing how much faster he learns math when someone sits with him one on one.", "domain": "school/education", "intent": "small talk"}
+{"id": "titan_1479", "split": "validation", "source": "Sorry I missed the tutoring payment.", "domain": "school/education", "intent": "apology"}
+{"id": "titan_1501", "split": "validation", "source": "the cat keeps scratching the new couch and i dont know how to stop it", "domain": "pets", "intent": "complaint"}
+{"id": "titan_1511", "split": "validation", "source": "Is that documentary everyone keeps recommending to me actually worth the three full hours it takes to watch?", "domain": "entertainment", "intent": "question"}
+{"id": "titan_1514", "split": "validation", "source": "watch it without spoilers", "domain": "entertainment", "intent": "instruction"}
+{"id": "titan_1522", "split": "validation", "source": "Mid-year reviews are scheduled for the week of June 8th.", "domain": "workplace", "intent": "announce"}
+{"id": "titan_1558", "split": "validation", "source": "just so everyone knows, i'm not coming to the reunion if grandma's cousin is going to start on about the farm again, i've had enough", "domain": "family/relationships", "intent": "announce"}
+{"id": "titan_1565", "split": "validation", "source": "Dev and I finally made peace.", "domain": "social/dating", "intent": "good news"}
+{"id": "titan_1566", "split": "validation", "source": "I tried apologising to Karan twice this week, but he isn't ready to talk, and I think I need to give him some space for now.", "domain": "social/dating", "intent": "bad news"}
+{"id": "titan_1574", "split": "validation", "source": "To cancel, submit the written form at least seven days before your renewal date.", "domain": "customer service", "intent": "instruction"}
+{"id": "titan_1595", "split": "validation", "source": "Would you be able to confirm whether the directions you provided lead to the north entrance or the south entrance, as the two are a kilometre apart?", "domain": "transport/commute", "intent": "question"}
+{"id": "titan_1604", "split": "validation", "source": "signed up for my first 10k, race day is march 15", "domain": "health/fitness", "intent": "announce"}
+{"id": "titan_1619", "split": "validation", "source": "Is the air bad enough today that we should skip the kids' football?", "domain": "weather/nature/outdoors", "intent": "question"}
+{"id": "titan_1644", "split": "validation", "source": "our team runs entirely on one giant google sheet and it terrifies me", "domain": "tech/devices/software", "intent": "small talk"}
+{"id": "titan_1667", "split": "validation", "source": "Could I bring my parents to the graduation dinner, or is it immediate family only?", "domain": "holidays/celebrations", "intent": "question"}
+{"id": "titan_0011", "split": "test", "source": "Sorry I'm late, traffic was terrible.", "domain": "social/dating", "intent": "apology"}
+{"id": "titan_0026", "split": "test", "source": "Unfortunately we can't offer a refund after thirty days.", "domain": "customer service", "intent": "refusal"}
+{"id": "titan_0059", "split": "test", "source": "If the server goes down again, we'll lose the client.", "domain": "workplace", "intent": "warning"}
+{"id": "titan_0064", "split": "test", "source": "Your subscription will renew automatically on March 3rd.", "domain": "customer service", "intent": "announce"}
+{"id": "titan_0065", "split": "test", "source": "I always get nervous before a long flight.", "domain": "travel", "intent": "small talk"}
+{"id": "titan_0069", "split": "test", "source": "Is this laptop worth the price?", "domain": "tech/devices/software", "intent": "question"}
+{"id": "titan_0141", "split": "test", "source": "Would you mind bringing a dessert to the New Year's party?", "domain": "holidays/celebrations", "intent": "request"}
+{"id": "titan_0150", "split": "test", "source": "Do you think the fog will clear before the drive?", "domain": "weather/nature/outdoors", "intent": "question"}
+{"id": "titan_0176", "split": "test", "source": "We can't add that feature this sprint; the team is already at capacity.", "domain": "workplace", "intent": "refusal"}
+{"id": "titan_0178", "split": "test", "source": "Should I learn Rust or just stick with Python?", "domain": "tech/devices/software", "intent": "question"}
+{"id": "titan_0190", "split": "test", "source": "Can you close the windows? Rain's coming in.", "domain": "weather/nature/outdoors", "intent": "request"}
+{"id": "titan_0201", "split": "test", "source": "zoom crashed AGAIN in the middle of my demo", "domain": "tech/devices/software", "intent": "complaint"}
+{"id": "titan_0211", "split": "test", "source": "I failed my driving test; I stalled twice and hit a cone.", "domain": "school/education", "intent": "bad news"}
+{"id": "titan_0214", "split": "test", "source": "Should we wait for the plumber or try to fix the leak ourselves?", "domain": "home/chores", "intent": "question"}
+{"id": "titan_0223", "split": "test", "source": "I just want to say the onboarding doc you wrote has saved every new hire hours; it's the best one we've had.", "domain": "workplace", "intent": "compliment"}
+{"id": "titan_0237", "split": "test", "source": "Sorry I scratched your car backing out; I'll pay for the repair.", "domain": "transport/commute", "intent": "apology"}
+{"id": "titan_0418", "split": "test", "source": "Reminder: the shared laundry room is closed for repairs until the 14th.", "domain": "home/chores", "intent": "announce"}
+{"id": "titan_0421", "split": "test", "source": "Wash the whites separately, cold water.", "domain": "home/chores", "intent": "instruction"}
+{"id": "titan_0438", "split": "test", "source": "weird how we only ever talk at weddings and funerals now", "domain": "family/relationships", "intent": "small talk"}
+{"id": "titan_0442", "split": "test", "source": "You've always been the one who keeps this family talking to each other.", "domain": "family/relationships", "intent": "compliment"}
+{"id": "titan_0457", "split": "test", "source": "We regret to inform you that your package was damaged in transit and has been returned to our warehouse for inspection.", "domain": "customer service", "intent": "bad news"}
+{"id": "titan_0471", "split": "test", "source": "We apologize for the delay.", "domain": "travel", "intent": "apology"}
+{"id": "titan_0497", "split": "test", "source": "I confess I find it difficult to order from a menu that runs to seven pages, as this one does, without feeling I have chosen wrongly.", "domain": "food/cooking", "intent": "small talk"}
+{"id": "titan_0537", "split": "test", "source": "vet waiting rooms are so sad", "domain": "pets", "intent": "small talk"}
+{"id": "titan_0548", "split": "test", "source": "I am sorry that we were unable to attend your Eid gathering on Saturday; the children were unwell and we could not risk bringing it to your house.", "domain": "holidays/celebrations", "intent": "apology"}
+{"id": "titan_0552", "split": "test", "source": "nope, not watching the recap, I'm gonna rewatch the whole season", "domain": "entertainment", "intent": "refusal"}
+{"id": "titan_0555", "split": "test", "source": "ur drilling woke the baby again", "domain": "civic/admin/housing", "intent": "complaint"}
+{"id": "titan_0570", "split": "test", "source": "so apparently the hiring freeze means my team's backfill request is on hold until at least Q3, which is rough", "domain": "workplace", "intent": "bad news"}
+{"id": "titan_0571", "split": "test", "source": "Miss Friday's benefits enrollment deadline and you stay on the default plan.", "domain": "workplace", "intent": "warning"}
+{"id": "titan_0640", "split": "test", "source": "Motorists are advised to expect delays of up to ninety minutes on the northbound carriageway following an incident near junction 6.", "domain": "transport/commute", "intent": "warning"}
+{"id": "titan_0649", "split": "test", "source": "I finally hit a bodyweight pull-up.", "domain": "health/fitness", "intent": "good news"}
+{"id": "titan_0653", "split": "test", "source": "pls finish the rice today", "domain": "food/cooking", "intent": "request"}
+{"id": "titan_0681", "split": "test", "source": "bring the report card tonight", "domain": "school/education", "intent": "instruction"}
+{"id": "titan_0683", "split": "test", "source": "Use a password manager instead of reusing the same password everywhere.", "domain": "tech/devices/software", "intent": "instruction"}
+{"id": "titan_0686", "split": "test", "source": "Should we turn on two-factor authentication for the whole team, or just for the people who have admin access to the billing system?", "domain": "tech/devices/software", "intent": "question"}
+{"id": "titan_0695", "split": "test", "source": "Coach moved me up to the starting lineup for Saturday.", "domain": "sports/games", "intent": "good news"}
+{"id": "titan_0699", "split": "test", "source": "I am switching the evening walk to the park loop instead of the canal path.", "domain": "pets", "intent": "announce"}
+{"id": "titan_0711", "split": "test", "source": "I got two tickets to the sold-out show through the resale queue.", "domain": "entertainment", "intent": "good news"}
+{"id": "titan_0714", "split": "test", "source": "I still think the best concerts are the small ones where you can actually see the musicians' faces from the back of the room.", "domain": "entertainment", "intent": "small talk"}
+{"id": "titan_0726", "split": "test", "source": "Log every client touchpoint in the CRM within 24 hours of the meeting.", "domain": "workplace", "intent": "instruction"}
+{"id": "titan_0729", "split": "test", "source": "huge news, the Castellan contract came back signed for three years at the full rate, no discount", "domain": "workplace", "intent": "good news"}
+{"id": "titan_0743", "split": "test", "source": "Fix the fence before it falls.", "domain": "home/chores", "intent": "request"}
+{"id": "titan_0744", "split": "test", "source": "Don't paint over the damp patch; it'll just come back worse.", "domain": "home/chores", "intent": "warning"}
+{"id": "titan_0752", "split": "test", "source": "i'm sorry i yelled at both of them over the broken lamp when it was only one of them", "domain": "home/kids", "intent": "apology"}
+{"id": "titan_0765", "split": "test", "source": "should i invite marcus to the party even though he caused that whole scene at the last one", "domain": "social/dating", "intent": "question"}
+{"id": "titan_0769", "split": "test", "source": "turns out half the people i invited already had plans so the party's gonna be pretty empty", "domain": "social/dating", "intent": "bad news"}
+{"id": "titan_0774", "split": "test", "source": "A fix for ticket 4471 has shipped.", "domain": "customer service", "intent": "announce"}
+{"id": "titan_0780", "split": "test", "source": "That cashier kept everyone calm even with the till broken and the line out the door.", "domain": "retail/shopping", "intent": "compliment"}
+{"id": "titan_0781", "split": "test", "source": "They opened a second till and the queue cleared in about six minutes.", "domain": "retail/shopping", "intent": "good news"}
+{"id": "titan_0786", "split": "test", "source": "Count your change before you leave the counter, the queue pressure makes them rush.", "domain": "retail/shopping", "intent": "warning"}
+{"id": "titan_0797", "split": "test", "source": "Is it safe to walk home alone after the 11 pm shift ends?", "domain": "transport/commute", "intent": "question"}
+{"id": "titan_0810", "split": "test", "source": "The insomnia came back this week.", "domain": "health/fitness", "intent": "bad news"}
+{"id": "titan_0814", "split": "test", "source": "Never guess about a guest's allergy.", "domain": "food/cooking", "intent": "warning"}
+{"id": "titan_0856", "split": "test", "source": "coach says if they don't show up to the next three practices they won't play the final", "domain": "sports/games", "intent": "warning"}
+{"id": "titan_0865", "split": "test", "source": "every thanksgiving uncle dave starts an argument about politics and ruins the whole dinner", "domain": "holidays/celebrations", "intent": "small talk"}
+{"id": "titan_0878", "split": "test", "source": "License renewals now require an in-person visit.", "domain": "civic/admin/housing", "intent": "announce"}
+{"id": "titan_0892", "split": "test", "source": "nah im not joining another channel, i already have 30", "domain": "workplace", "intent": "refusal"}
+{"id": "titan_0902", "split": "test", "source": "add eggs to the list rn", "domain": "home/chores", "intent": "instruction"}
+{"id": "titan_0928", "split": "test", "source": "He keeps showing up at my gym even though I told him to stop.", "domain": "social/dating", "intent": "complaint"}
+{"id": "titan_0944", "split": "test", "source": "Keep the gift receipt in the card, not the box.", "domain": "retail/shopping", "intent": "instruction"}
+{"id": "titan_0966", "split": "test", "source": "Eat protein with every meal.", "domain": "health/fitness", "intent": "instruction"}
+{"id": "titan_0968", "split": "test", "source": "Three months without soda, that's real discipline.", "domain": "health/fitness", "intent": "compliment"}
+{"id": "titan_0979", "split": "test", "source": "do you think the roads will be ok by 7 tomorrow or should i just work from home? theyre saying 15cm overnight", "domain": "weather/nature/outdoors", "intent": "question"}
+{"id": "titan_0980", "split": "test", "source": "I love the first snow of the year, everything goes quiet for about a day and then it turns to grey slush.", "domain": "weather/nature/outdoors", "intent": "small talk"}
+{"id": "titan_1020", "split": "test", "source": "We're not getting a second cat right now; the first one still hides under the bed when anyone visits.", "domain": "pets", "intent": "refusal"}
+{"id": "titan_1036", "split": "test", "source": "im not calling the water company again, they hung up twice, u do it", "domain": "civic/admin/housing", "intent": "refusal"}
+{"id": "titan_1053", "split": "test", "source": "Add Priya to payroll today.", "domain": "workplace", "intent": "request"}
+{"id": "titan_1066", "split": "test", "source": "From tomorrow, school bags get packed the night before.", "domain": "home/kids", "intent": "announce"}
+{"id": "titan_1071", "split": "test", "source": "sorry i forgot to sign the reading log again, can you just tell the teacher it was my fault not hers", "domain": "home/kids", "intent": "apology"}
+{"id": "titan_1075", "split": "test", "source": "If you don't call your brother back, he'll stop calling altogether.", "domain": "family/relationships", "intent": "warning"}
+{"id": "titan_1086", "split": "test", "source": "Nina's moving away, so our Friday dinners are over.", "domain": "social/dating", "intent": "bad news"}
+{"id": "titan_1090", "split": "test", "source": "Your replacement unit will ship within ten business days.", "domain": "customer service", "intent": "announce"}
+{"id": "titan_1108", "split": "test", "source": "ur playlist carried us through 9 hours of highway", "domain": "travel", "intent": "compliment"}
+{"id": "titan_1112", "split": "test", "source": "I must decline the suggestion to drive through the night to reach Goa by morning.", "domain": "travel", "intent": "refusal"}
+{"id": "titan_1124", "split": "test", "source": "I will not be participating in the half marathon in February, as my physiotherapist has advised a further eight weeks of rest.", "domain": "health/fitness", "intent": "refusal"}
+{"id": "titan_1144", "split": "test", "source": "I wanted to say how much I admired the way you kept the children calm when the tide came in faster than expected.", "domain": "weather/nature/outdoors", "intent": "compliment"}
+{"id": "titan_1147", "split": "test", "source": "If you don't ask for the raise, you won't get it.", "domain": "finance/money", "intent": "warning"}
+{"id": "titan_1162", "split": "test", "source": "exam results drop tomorrow 9am", "domain": "school/education", "intent": "announce"}
+{"id": "titan_1167", "split": "test", "source": "Sorry, my refactor broke the login page; I've reverted it.", "domain": "tech/devices/software", "intent": "apology"}
+{"id": "titan_1374", "split": "test", "source": "can you tell marketing to book rooms instead of just walking into ours", "domain": "workplace", "intent": "request"}
+{"id": "titan_1418", "split": "test", "source": "Could you hold the oak dining table for me until Friday while I measure the room?", "domain": "retail/shopping", "intent": "request"}
+{"id": "titan_1426", "split": "test", "source": "Please ensure the children have their passports and a packed snack before we leave for the airport at 5 am.", "domain": "travel", "intent": "request"}
+{"id": "titan_1441", "split": "test", "source": "Board only with a valid ticket.", "domain": "transport/commute", "intent": "instruction"}
+{"id": "titan_1454", "split": "test", "source": "Prep the vegetables on Sunday so weeknight dinners come together faster.", "domain": "food/cooking", "intent": "instruction"}
+{"id": "titan_1456", "split": "test", "source": "Your weekly menus always work.", "domain": "food/cooking", "intent": "compliment"}
+{"id": "titan_1473", "split": "test", "source": "List every subscription we pay.", "domain": "finance/money", "intent": "request"}
+{"id": "titan_1495", "split": "test", "source": "Players who use cheat software will be permanently banned from all ranked matches, with no appeal allowed.", "domain": "sports/games", "intent": "warning"}
+{"id": "titan_1534", "split": "test", "source": "Effective immediately, feedback will be collected from peers as well as managers.", "domain": "workplace", "intent": "announce"}
+{"id": "titan_1545", "split": "test", "source": "Be home by eleven, please.", "domain": "home/kids", "intent": "request"}
+{"id": "titan_1547", "split": "test", "source": "Could I please stay out until 12:30 on Saturday for Aarav's birthday?", "domain": "home/kids", "intent": "question"}
+{"id": "titan_1556", "split": "test", "source": "I'm not going to take sides between you and your sister.", "domain": "family/relationships", "intent": "refusal"}
+{"id": "titan_1602", "split": "test", "source": "The ring road is closed for the marathon on Sunday morning.", "domain": "transport/commute", "intent": "bad news"}
+{"id": "titan_1618", "split": "test", "source": "fyi i told the canteen guy we're done ordering from them, three times the sandwiches were stale and nobody even apologised", "domain": "food/cooking", "intent": "announce"}
+{"id": "titan_1629", "split": "test", "source": "ok real question, should i put the 50k bonus toward the car loan or just leave it in the savings account, interest on the loan is like 9 percent", "domain": "finance/money", "intent": "request"}
+{"id": "titan_1630", "split": "test", "source": "The fixed deposit matures in November.", "domain": "finance/money", "intent": "announce"}
+{"id": "titan_1633", "split": "test", "source": "charged for a paper statement, seriously", "domain": "finance/money", "intent": "complaint"}
+{"id": "titan_1637", "split": "test", "source": "Our class won the quiz trophy.", "domain": "school/education", "intent": "good news"}
+{"id": "titan_1640", "split": "test", "source": "I can't chaperone the zoo trip this time; maybe next term.", "domain": "school/education", "intent": "refusal"}
+{"id": "titan_1652", "split": "test", "source": "I know the final is on Saturday, but I'm not clearing you to play with a concussion, no matter how good you feel today.", "domain": "sports/games", "intent": "refusal"}
+{"id": "titan_1661", "split": "test", "source": "monthly cost of a rabbit?", "domain": "pets", "intent": "question"}
