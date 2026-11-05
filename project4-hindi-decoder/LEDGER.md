@@ -176,3 +176,33 @@ The same run also printed `transformers 5.16.1, peft 0.20.0` although Cell 1 ins
 - **Stage 1 did not click:** chrF on 40 held-out sentences was 17.0 at step 500 and 29.2 at step 1,000 (train loss 3.10). R16 had 80.7 and 98.3, R15 24.5 and 97.1, and R14 (never clicked) 20.6 and 26.7. Stopped at step 1,000.
 - **Lesson:** the copying click is fragile and depends on the starting point, not just the recipe. Keep a known-good stage 1 instead of retraining it: R16's `encoder-lora/` and `bridge.pt` are now in the private repo `skamalj/titan-stage1` (`r16/`), and notebook 12 loads them from there.
 - **Next:** notebook 12 extended to four arms (control → jepa → style → contrast) using `titan_style_v1`, with every checkpoint mirrored to that repo.
+
+### R17b — JEPA ladder on the bridge (2026-11-05, `12-jepa-control/`, data `titan_v1` + `titan_style_v1`)
+
+- **Setup:** R16's stage 1 (from the private repo `skamalj/titan-stage1`, `r16/`). A 6-layer predictor writes 8 content slots + 2 style slots after the x prefix. Four arms, each adding one loss: control (CE) → jepa (+ cosine to the frozen stage-1 latent of y) → style (+ style head on 7 attribute scores) → contrast (+ InfoNCE against formal / near-miss versions). Modal L40S, about 3.5 min per epoch (Kaggle T4: about 18 min).
+- **First pass:** the predictor's JEPA cosine stayed at 0 (raw outputs standardised, learning rate 1e-4 could not reach the target's scale). Fix: the predictor writes in the standardised space, learning rate 3e-4, plus a warm-up on the latent losses alone. The cosine then reached 0.24 in seconds.
+- **Results (test):** chrF 27.4 / 28.0 / 27.5 / 27.6. Facts within noise. Titan rate 97–99 % in every arm. Slot swap changed 6 % / **94 %** / 44 % / 4 % of outputs: Gemma reads ẑ only in the jepa arm, and the contrast loss produces sentence-independent slots.
+- **Blind judgement (test, 400 outputs, mine):** usable 52 / 49 / 56 / 56 %, all differences inside the noise.
+- **Oracle check:** the true latent s(y) in place of ẑ changed 72 % of outputs, but no better (chrF 27.8 against 28.3; blind 8 against 10). The bridge latent is not worth predicting: the meaning errors come from the x prefix and the encoder.
+
+### R18 — LLM-JEPA on Gemma, plain LoRA vs LoRA + JEPA (2026-11-05, `13-llm-jepa/`)
+
+- **Design:** no encoder or bridge; Gemma + LoRA with the prompt "Rewrite in the Titan's voice: x". JEPA term: middle-layer state of (prompt + 2 `[PRED]`) against the y view, standardised cosine, stop-gradient on y.
+- **4B, 300 pairs:** plain LoRA test chrF 29.0 (the best on test so far), numbers 0.93, names 1.0. JEPA: chrF 28.0, blind 24 against 29 (p = 0.58). No gain.
+- **4B zero-shot:** the register cannot be prompted. The titan prompt gives a mythic parody (style rules 8 %); the described style comes out robotic and invents facts ("14:37 hours"); the thanos prompt gives film clichés.
+- **4B, 50 pairs:** degrades gently; negation 0.52. Blind 29 against 38 for 300 pairs (p = 0.33).
+- **1B, 50 pairs (LoRA fails visibly):** loops, incoherence, invented facts; validation CE 2.88. LoRA + JEPA (tokens) won the blind judgement **16 to 2 (p ≈ 0.001)**, names 0.86 against 0.57, at JEPA cosine 0.03. With a 6-layer predictor: 16 against 17, worse facts, cosine 0.26.
+- **Rule set (user):** chrF does not fit this style transfer; verdicts use facts + blind judgement only.
+
+### R19 — Plain-LoRA hyperparameter search, then JEPA on the best recipe (2026-11-05, `14-lora-sweep/`, 1B, 50 pairs)
+
+- **Sweep:** 21 configurations (lr {5e-5, 1e-4, 2e-4} × rank {8, 16, 32} × dropout {0.05, 0.15}, then NEFTune × weight decay), up to 30 epochs, early stopping with patience 3. Best validation CE 2.8779 (lr 1e-4, r 16, dropout 0.15, weight decay 0.05). The **whole grid spans 2.878–2.907**, and the default recipe was 5th (2.8795). Cost about $0.55.
+- **JEPA on the tuned recipe** (tokens and 6-layer, λ 0.5 / 1 / 2): facts equal; blind on validation against the tuned LoRA 18 to 16 (tokens) and 16 to 13 (6-layer), both null. **R18's 16-to-2 win was a regularisation effect** that dropout + weight decay also deliver.
+- **JEPA warm-up (JEPA alone first):** collapsed (validation cosine 0.98; the model got worse, CE 3.01). The target was computed by the same LoRA model.
+
+### R20 — The LLM-JEPA paper's claims, paper recipe (2026-11-05, `15-llm-jepa-claims/`, 1B)
+
+- **Recipe as in Huang, LeCun and Balestriero (arXiv 2509.14252):** last token of the final layer, k = 1 `[PRED]`, plain cosine, gradient through both views, CE + λ·JEPA from step one. Tuned LoRA recipe. 20 epochs with no early stopping; general-ability check = NLL on the base model's own answers to 50 general questions.
+- **50 pairs:** the best validation CE is plain LoRA's (2.879 at epoch 5; JEPA λ 1/2/4: 2.880 / 2.897 / 2.914). **No faster convergence.** After the peak JEPA overfits **more slowly**, and more so at higher λ (epoch 10: 3.39 at λ 4 against 3.89). General-ability NLL rises **more** with JEPA (epoch 20: 1.10 against 1.03). The JEPA loss mostly **collapses**: mismatched-pair cosine is nearly the matched one (0.979 against 0.984 at λ 4). Blind at epoch 10, plain LoRA against JEPA λ 4: 25 to 36, 39 ties (p = 0.2).
+- **300 pairs:** pending.
+- **Conclusion so far:** on this task and scale, JEPA does not beat a tuned LoRA. Its measurable effect is a regulariser that delays overfitting. Decision (user, 2026-11-05): record JEPA and move Project 4 to "LoRA the hard way", with two personalities (Titan and Salim–Javed).
