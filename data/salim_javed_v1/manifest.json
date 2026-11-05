@@ -1,0 +1,14 @@
+{
+ "dataset": "salim_javed_v1",
+ "personas": {
+  "salim_javed": {
+   "name": "Salim-Javed",
+   "description": "Original lines in the cadence of 1970s Salim-Javed film dialogue, in Roman-script Hindustani: short balanced clauses, pride and calm defiance, a one-line aphorism tied to the situation; every fact of the source kept. Never actual film dialogue."
+  }
+ },
+ "files": {
+  "train": 50,
+  "validation": 25,
+  "test": 25
+ }
+}
