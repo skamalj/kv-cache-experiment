@@ -13,10 +13,22 @@ Each part of the series lives on its own branch. **This README is the same on ev
 | 1. Decoders by hand | [`master`](https://github.com/skamalj/llms-the-hard-way/tree/master) | `kv_cache_experiment.ipynb`, `smollm2_forward_pass_kv_cache.ipynb`, `rope.ipynb`, `smoll_json_lora.ipynb` | Laptop CPU |
 | 2. An encoder by hand | [`modernbert-by-hand`](https://github.com/skamalj/llms-the-hard-way/tree/modernbert-by-hand) | `01_modernbert_by_hand.ipynb` | CPU (or Kaggle) |
 | 3. A frozen-encoder router | [`frozen-router`](https://github.com/skamalj/llms-the-hard-way/tree/frozen-router) | `02_frozen_router.ipynb`, its data, the experiment ledger | Kaggle GPU |
-| 4. Fine-tuning: Signpost | [`signpost`](https://github.com/skamalj/llms-the-hard-way/tree/signpost) | `03_lora_signpost.ipynb`, `04_decider_benchmark.ipynb`, `05_one_pass_signpost.ipynb` (4b), `signpost/` (loaders + model card), their data, the experiment ledger | Kaggle GPU |
+| 4. Fine-tuning: Signpost | [`signpost`](https://github.com/skamalj/llms-the-hard-way/tree/signpost) | `03_lora_signpost.ipynb`, `04_decider_benchmark.ipynb`, `05_one_pass_signpost.ipynb` (4b), `signpost/` (loaders + model card), their data, the experiment ledger | Kaggle or Colab GPU |
 | 5. Signpost in agent frameworks | [`signpost-apps`](https://github.com/skamalj/llms-the-hard-way/tree/signpost-apps) | `apps/langgraph/`: five agents routed by Signpost, with a DynamoDB checkpointer and a message reducer | Local (CPU), AWS, Anthropic API |
 
 The suggested reading order is 1 → 5.
+
+### How the series flows
+
+Each part builds what the next one needs:
+
+1. **Decoders by hand** (`master`): attention, RoPE and the KV cache rebuilt by hand on GPT-2 and SmolLM2, then a first LoRA (SmolLM2 answering in JSON).
+2. **An encoder by hand** (`modernbert-by-hand`): ModernBERT's forward pass rebuilt from its checkpoint, and a classification head on top. A new class needs new labels and a retraining run, so…
+3. **A frozen-encoder router** (`frozen-router`) changes the head: the encoder stays frozen and small heads score each candidate agent against the conversation, so a new agent needs only its description. The frozen encoder turns out to be the limit, so…
+4. **Fine-tuning: Signpost** (`signpost`) fine-tunes ModernBERT-large with LoRA into one model for routing and grounded questions (Signpost), benchmarks it against the 2B Strands decider, and in 4b scores every option in one pass.
+5. **Signpost in agent frameworks** (`signpost-apps`) puts Signpost to work as the router of a real multi-agent app.
+
+The notebooks are numbered across the series (`01` in Part 2 to `05` in Part 4); Part 1's notebooks are unnumbered.
 
 ## Part 1: Decoders by hand (`master`)
 
@@ -103,7 +115,7 @@ It runs Signpost's final recipe; the earlier experiments (Nemotron-1B, separate 
 | Independent set 2: questions · routing with 8–11 agents | **188 / 200** · **62 / 70** | 185 / 200 · 55 / 70 |
 | Latency per decision (T4, p50) | **~55–75 ms** | ~200 ms per question, 290–650 ms per routing decision |
 
-**Run:** Kaggle with a GPU (all three notebooks); the data is cloned from this branch.
+**Run:** Kaggle or Colab with a GPU (all three notebooks; the latest saved outputs are from Colab, RTX PRO 6000); the data is cloned from this branch.
 
 ## Part 5: Signpost in agent frameworks (`signpost-apps`)
 
