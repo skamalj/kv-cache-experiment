@@ -104,7 +104,7 @@ It runs Signpost's final recipe; the earlier experiments (Nemotron-1B, separate 
 
 **`04_decider_benchmark.ipynb`** runs the 2B Strands decider on exactly the same test items: E10, E11, banking, E12, both independent sets, and latency.
 
-**`05_one_pass_signpost.ipynb`** (Part 4b) puts **every option into one input**, so the encoder runs once per question instead of once per option, and one shared head scores each option at its own tokens. Trained on Signpost's data plus 2,500 hand-written many-option questions and routing with up to 15 agents, it is level with Signpost on routing (independent 134 vs 133 / 172, many-agent 102 vs 103 / 120), slightly behind on E12 (152–158 vs 161), and its latency stays flat at about 60 ms for 2–50 options, where Signpost's grows with each option (about 190 ms with 8–11 agents). It ends with runs 26–29 of the one-pass experiment.
+**`05_one_pass_signpost.ipynb`** (Part 4b) puts **every option into one input**, so the encoder runs once per question instead of once per option, and one shared head scores each option at its own tokens. Trained on Signpost's data plus 2,500 hand-written many-option questions and routing with up to 15 agents, it is level with Signpost on routing (independent 134 vs 133 / 172, many-agent 102 vs 103 / 120), slightly behind on E12 (150–158 vs 161), and its latency stays flat at about 60 ms for 2–50 options, where Signpost's grows with each option (about 190 ms with 8–11 agents). It ends with runs 26–29 of the one-pass experiment.
 
 **`signpost/`** holds the standalone loaders (`signpost.py`; `signpost_one_pass.py` for the one-pass model), the model card and its tested examples. The exported model is published at **[huggingface.co/skamalj/signpost](https://huggingface.co/skamalj/signpost)** (Apache-2.0). Tag `signpost-v1.0` marks the exact state that trained and exported it.
 
@@ -118,7 +118,7 @@ It runs Signpost's final recipe; the earlier experiments (Nemotron-1B, separate 
 | Independent set 2: questions · routing with 8–11 agents | **188 / 200** · **62 / 70** | 185 / 200 · 55 / 70 |
 | Latency per decision (T4, p50) | **~55–75 ms** | ~200 ms per question, 290–650 ms per routing decision |
 
-**Run:** Kaggle or Colab with a GPU (all three notebooks; the latest saved outputs are from Colab, RTX PRO 6000); the data is cloned from this branch.
+**Run:** Kaggle or Colab with a GPU (all three notebooks; the saved outputs of `03` and `05` are from a Kaggle T4, those of `04` from Colab, RTX PRO 6000); the data is cloned from this branch. The model is written to disk only with `SAVE_MODEL=1`, which is needed only before publishing.
 
 ## Part 5: Signpost in agent frameworks (`signpost-apps`)
 
